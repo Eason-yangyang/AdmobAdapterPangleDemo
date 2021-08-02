@@ -7,6 +7,8 @@ target 'AdmobAdapterDemo' do
 
   pod 'Ads-Global'
   pod 'Google-Mobile-Ads-SDK', '8.0.0'
+  pod 'Pangle-adapter-for-admob'
+  
   # Pods for AdmobAdapterDemo
 
 end

@@ -45,11 +45,15 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - Pangle-adapter-for-admob (1.4.0):
+    - Ads-Global (= 3.8.1.0)
+    - Google-Mobile-Ads-SDK (~> 8.0.0)
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
   - Ads-Global
   - Google-Mobile-Ads-SDK (= 8.0.0)
+  - Pangle-adapter-for-admob
 
 SPEC REPOS:
   trunk:
@@ -59,6 +63,7 @@ SPEC REPOS:
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - nanopb
+    - Pangle-adapter-for-admob
     - PromisesObjC
 
 SPEC CHECKSUMS:
@@ -68,8 +73,9 @@ SPEC CHECKSUMS:
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  Pangle-adapter-for-admob: 2d7af0932c2e4d22a5159b900fd490d9558bf120
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 45f6e3d38f813da91d6c110732fdcb843872a083
+PODFILE CHECKSUM: a184cc6e2d9655018f797c865a68aa3f88c3908c
 
 COCOAPODS: 1.10.1
