@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  AppDelegate.h
 //  AdmobAdapterDemo
 //
 //  Created by Eason on 2021/8/2.
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow * window;
 

@@ -3,32 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9B92657826B79B80003C6ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92657726B79B80003C6ACD /* AppDelegate.m */; };
-		9B92657B26B79B80003C6ACD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92657A26B79B80003C6ACD /* SceneDelegate.m */; };
-		9B92657E26B79B80003C6ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92657D26B79B80003C6ACD /* ViewController.m */; };
 		9B92658126B79B80003C6ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92657F26B79B80003C6ACD /* Main.storyboard */; };
 		9B92658326B79B81003C6ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B92658226B79B81003C6ACD /* Assets.xcassets */; };
 		9B92658626B79B81003C6ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92658426B79B81003C6ACD /* LaunchScreen.storyboard */; };
 		9B92658926B79B81003C6ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92658826B79B81003C6ACD /* main.m */; };
+		9B9265AC26B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */; };
+		9B9265AD26B79C6F003C6ACD /* BUDAdmob_PangleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */; };
+		9B9265AE26B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */; };
+		9B9265AF26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */; };
+		9B9265B026B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */; };
+		9B9265B126B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */; };
+		9B9265B226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m */; };
+		9B9265B326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m */; };
+		9B9265B426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m */; };
+		9B9265B526B79C6F003C6ACD /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9265A526B79C6F003C6ACD /* UnifiedNativeAdView.xib */; };
+		9B9265B626B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A726B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m */; };
+		9B9265B726B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265AA26B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m */; };
+		A8B4B59BC79062383D4FB8B4 /* Pods_AdmobAdapterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BE3452B9131F7F28284D8 /* Pods_AdmobAdapterDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187BC9145851FD38B0C0FF18 /* Pods-AdmobAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		234867B7D16C108FE4014B87 /* Pods-AdmobAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobAdapterDemo.release.xcconfig"; path = "Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		878BE3452B9131F7F28284D8 /* Pods_AdmobAdapterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdmobAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B92657326B79B80003C6ACD /* AdmobAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmobAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B92657626B79B80003C6ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B92657726B79B80003C6ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B92657926B79B80003C6ACD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9B92657A26B79B80003C6ACD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9B92657C26B79B80003C6ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B92657D26B79B80003C6ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B92658026B79B80003C6ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B92658226B79B81003C6ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B92658526B79B81003C6ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B92658726B79B81003C6ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B92658826B79B81003C6ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B92659226B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_FullScreenVideoCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_BannerCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B92659426B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedAd.h; sourceTree = "<group>"; };
+		9B92659526B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_RewardCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B92659626B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_PangleTool.m; sourceTree = "<group>"; };
+		9B92659826B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_BannerCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FullScreenVideoCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_RewardCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedAd.m; sourceTree = "<group>"; };
+		9B92659C26B79C6F003C6ACD /* BUDAdmob_PangleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_PangleTool.h; sourceTree = "<group>"; };
+		9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B9265A026B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_RewardVideoCusEventVC.h; sourceTree = "<group>"; };
+		9B9265A126B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_BannerCusEventVC.h; sourceTree = "<group>"; };
+		9B9265A226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FullScreenCusEventVC.m; sourceTree = "<group>"; };
+		9B9265A326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FeedNativeCusEventVC.m; sourceTree = "<group>"; };
+		9B9265A426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_RewardVideoCusEventVC.m; sourceTree = "<group>"; };
+		9B9265A526B79C6F003C6ACD /* UnifiedNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnifiedNativeAdView.xib; sourceTree = "<group>"; };
+		9B9265A626B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_FullScreenCusEventVC.h; sourceTree = "<group>"; };
+		9B9265A726B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_BannerCusEventVC.m; sourceTree = "<group>"; };
+		9B9265A826B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_FeedNativeCusEventVC.h; sourceTree = "<group>"; };
+		9B9265AA26B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmobCustomEventViewController.m; sourceTree = "<group>"; };
+		9B9265AB26B79C6F003C6ACD /* BUDAdmobCustomEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmobCustomEventViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B4B59BC79062383D4FB8B4 /* Pods_AdmobAdapterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4138406461F534816BD9537F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187BC9145851FD38B0C0FF18 /* Pods-AdmobAdapterDemo.debug.xcconfig */,
+				234867B7D16C108FE4014B87 /* Pods-AdmobAdapterDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EE9D309C8FF475CCC1022DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878BE3452B9131F7F28284D8 /* Pods_AdmobAdapterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B92656A26B79B80003C6ACD = {
 			isa = PBXGroup;
 			children = (
 				9B92657526B79B80003C6ACD /* AdmobAdapterDemo */,
 				9B92657426B79B80003C6ACD /* Products */,
+				4138406461F534816BD9537F /* Pods */,
+				8EE9D309C8FF475CCC1022DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +114,86 @@
 		9B92657526B79B80003C6ACD /* AdmobAdapterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9B92659026B79C6F003C6ACD /* CustomEventAdapter */,
+				9B92658F26B79BF0003C6ACD /* BaseFile */,
+			);
+			path = AdmobAdapterDemo;
+			sourceTree = "<group>";
+		};
+		9B92658F26B79BF0003C6ACD /* BaseFile */ = {
+			isa = PBXGroup;
+			children = (
 				9B92657626B79B80003C6ACD /* AppDelegate.h */,
 				9B92657726B79B80003C6ACD /* AppDelegate.m */,
-				9B92657926B79B80003C6ACD /* SceneDelegate.h */,
-				9B92657A26B79B80003C6ACD /* SceneDelegate.m */,
-				9B92657C26B79B80003C6ACD /* ViewController.h */,
-				9B92657D26B79B80003C6ACD /* ViewController.m */,
 				9B92657F26B79B80003C6ACD /* Main.storyboard */,
 				9B92658226B79B81003C6ACD /* Assets.xcassets */,
 				9B92658426B79B81003C6ACD /* LaunchScreen.storyboard */,
 				9B92658726B79B81003C6ACD /* Info.plist */,
 				9B92658826B79B81003C6ACD /* main.m */,
 			);
-			path = AdmobAdapterDemo;
+			path = BaseFile;
+			sourceTree = "<group>";
+		};
+		9B92659026B79C6F003C6ACD /* CustomEventAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				9B92659126B79C6F003C6ACD /* Adapter */,
+				9B92659E26B79C6F003C6ACD /* ExamplePage */,
+			);
+			path = CustomEventAdapter;
+			sourceTree = "<group>";
+		};
+		9B92659126B79C6F003C6ACD /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				9B92659826B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.h */,
+				9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */,
+				9B92659226B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */,
+				9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */,
+				9B92659426B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.h */,
+				9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */,
+				9B92659626B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.h */,
+				9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */,
+				9B92659C26B79C6F003C6ACD /* BUDAdmob_PangleTool.h */,
+				9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */,
+				9B92659526B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.h */,
+				9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		9B92659E26B79C6F003C6ACD /* ExamplePage */ = {
+			isa = PBXGroup;
+			children = (
+				9B92659F26B79C6F003C6ACD /* SubPage */,
+				9B9265A926B79C6F003C6ACD /* MainPage */,
+			);
+			path = ExamplePage;
+			sourceTree = "<group>";
+		};
+		9B92659F26B79C6F003C6ACD /* SubPage */ = {
+			isa = PBXGroup;
+			children = (
+				9B9265A126B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.h */,
+				9B9265A726B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m */,
+				9B9265A826B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.h */,
+				9B9265A326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m */,
+				9B9265A626B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.h */,
+				9B9265A226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m */,
+				9B9265A026B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.h */,
+				9B9265A426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m */,
+				9B9265A526B79C6F003C6ACD /* UnifiedNativeAdView.xib */,
+			);
+			path = SubPage;
+			sourceTree = "<group>";
+		};
+		9B9265A926B79C6F003C6ACD /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				9B9265AB26B79C6F003C6ACD /* BUDAdmobCustomEventViewController.h */,
+				9B9265AA26B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m */,
+			);
+			path = MainPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B92658C26B79B81003C6ACD /* Build configuration list for PBXNativeTarget "AdmobAdapterDemo" */;
 			buildPhases = (
+				4FA6A6595ED1C431AFB4CC1B /* [CP] Check Pods Manifest.lock */,
 				9B92656F26B79B80003C6ACD /* Sources */,
 				9B92657026B79B80003C6ACD /* Frameworks */,
 				9B92657126B79B80003C6ACD /* Resources */,
+				39A74FC018C23C960909C292 /* [CP] Embed Pods Frameworks */,
+				24861211CC568D43E1EADDC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,20 +258,89 @@
 				9B92658626B79B81003C6ACD /* LaunchScreen.storyboard in Resources */,
 				9B92658326B79B81003C6ACD /* Assets.xcassets in Resources */,
 				9B92658126B79B80003C6ACD /* Main.storyboard in Resources */,
+				9B9265B526B79C6F003C6ACD /* UnifiedNativeAdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24861211CC568D43E1EADDC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A74FC018C23C960909C292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FA6A6595ED1C431AFB4CC1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdmobAdapterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B92656F26B79B80003C6ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B92657E26B79B80003C6ACD /* ViewController.m in Sources */,
+				9B9265B726B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m in Sources */,
+				9B9265B426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m in Sources */,
+				9B9265AD26B79C6F003C6ACD /* BUDAdmob_PangleTool.m in Sources */,
+				9B9265B326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m in Sources */,
+				9B9265B626B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m in Sources */,
+				9B9265AE26B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */,
 				9B92657826B79B80003C6ACD /* AppDelegate.m in Sources */,
 				9B92658926B79B81003C6ACD /* main.m in Sources */,
-				9B92657B26B79B80003C6ACD /* SceneDelegate.m in Sources */,
+				9B9265AC26B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m in Sources */,
+				9B9265AF26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m in Sources */,
+				9B9265B126B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */,
+				9B9265B226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m in Sources */,
+				9B9265B026B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +480,18 @@
 		};
 		9B92658D26B79B81003C6ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187BC9145851FD38B0C0FF18 /* Pods-AdmobAdapterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GE6TQN759S;
-				INFOPLIST_FILE = AdmobAdapterDemo/Info.plist;
+				DEVELOPMENT_TEAM = 8QS6P424GL;
+				INFOPLIST_FILE = AdmobAdapterDemo/BaseFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bytedance.com.AdmobAdapterDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.ADUnion.Development1234;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,17 +499,18 @@
 		};
 		9B92658E26B79B81003C6ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234867B7D16C108FE4014B87 /* Pods-AdmobAdapterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GE6TQN759S;
-				INFOPLIST_FILE = AdmobAdapterDemo/Info.plist;
+				DEVELOPMENT_TEAM = 8QS6P424GL;
+				INFOPLIST_FILE = AdmobAdapterDemo/BaseFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bytedance.com.AdmobAdapterDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.ADUnion.Development1234;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
