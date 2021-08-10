@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
 
   s.source_files        = "AdmobAdapter/*.{h,m}"
 
-  s.dependency "Ads-Global","3.8.1.0"
+  s.dependency "Ads-Global",">= 3.7.0.0"
 
-  s.dependency "Google-Mobile-Ads-SDK","~> 8.0.0"
+  s.dependency "Google-Mobile-Ads-SDK",">= 8.0.0"
 
   
 
