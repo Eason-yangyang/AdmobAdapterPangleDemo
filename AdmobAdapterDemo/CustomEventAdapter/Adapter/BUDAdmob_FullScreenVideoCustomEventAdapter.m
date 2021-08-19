@@ -88,7 +88,7 @@ NSString *const INTERSTITIAL_PANGLE_PLACEMENT_ID = @"placementID";
     if (!(param && [param isKindOfClass:[NSString class]] && param.length > 0)) {
         return nil;
     }
-    NSError *jsonReadingError;
+    NSError *jsonReadingError = nil;
     NSData *data = [param dataUsingEncoding:NSUTF8StringEncoding];
     if (!data) {
         return nil;
