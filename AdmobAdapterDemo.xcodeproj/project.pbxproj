@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0BCBE226D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBD726D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.m */; };
+		9B0BCBE326D37D3C002F0298 /* BUDAdmob_PangleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBDB26D37D3C002F0298 /* BUDAdmob_PangleTool.m */; };
+		9B0BCBE426D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBDD26D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */; };
+		9B0BCBE526D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBDE26D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.m */; };
+		9B0BCBE626D37D3C002F0298 /* BUDAdmob_NativeFeedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBDF26D37D3C002F0298 /* BUDAdmob_NativeFeedAd.m */; };
+		9B0BCBE726D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BCBE126D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.m */; };
 		9B92657826B79B80003C6ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92657726B79B80003C6ACD /* AppDelegate.m */; };
 		9B92658126B79B80003C6ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92657F26B79B80003C6ACD /* Main.storyboard */; };
 		9B92658326B79B81003C6ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B92658226B79B81003C6ACD /* Assets.xcassets */; };
 		9B92658626B79B81003C6ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92658426B79B81003C6ACD /* LaunchScreen.storyboard */; };
 		9B92658926B79B81003C6ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92658826B79B81003C6ACD /* main.m */; };
-		9B9265AC26B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */; };
-		9B9265AD26B79C6F003C6ACD /* BUDAdmob_PangleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */; };
-		9B9265AE26B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */; };
-		9B9265AF26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */; };
-		9B9265B026B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */; };
-		9B9265B126B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */; };
 		9B9265B226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m */; };
 		9B9265B326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m */; };
 		9B9265B426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9265A426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m */; };
@@ -31,6 +31,18 @@
 		187BC9145851FD38B0C0FF18 /* Pods-AdmobAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		234867B7D16C108FE4014B87 /* Pods-AdmobAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobAdapterDemo.release.xcconfig"; path = "Target Support Files/Pods-AdmobAdapterDemo/Pods-AdmobAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		878BE3452B9131F7F28284D8 /* Pods_AdmobAdapterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdmobAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0BCBD626D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_FullScreenVideoCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B0BCBD726D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_BannerCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B0BCBD826D37D3C002F0298 /* BUDAdmob_NativeFeedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedAd.h; sourceTree = "<group>"; };
+		9B0BCBD926D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_RewardCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B0BCBDA26D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B0BCBDB26D37D3C002F0298 /* BUDAdmob_PangleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_PangleTool.m; sourceTree = "<group>"; };
+		9B0BCBDC26D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_BannerCustomEventAdapter.h; sourceTree = "<group>"; };
+		9B0BCBDD26D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FullScreenVideoCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B0BCBDE26D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_RewardCustomEventAdapter.m; sourceTree = "<group>"; };
+		9B0BCBDF26D37D3C002F0298 /* BUDAdmob_NativeFeedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedAd.m; sourceTree = "<group>"; };
+		9B0BCBE026D37D3C002F0298 /* BUDAdmob_PangleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_PangleTool.h; sourceTree = "<group>"; };
+		9B0BCBE126D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedCustomEventAdapter.m; sourceTree = "<group>"; };
 		9B92657326B79B80003C6ACD /* AdmobAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmobAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B92657626B79B80003C6ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B92657726B79B80003C6ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,18 +51,6 @@
 		9B92658526B79B81003C6ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B92658726B79B81003C6ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B92658826B79B81003C6ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B92659226B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_FullScreenVideoCustomEventAdapter.h; sourceTree = "<group>"; };
-		9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_BannerCustomEventAdapter.m; sourceTree = "<group>"; };
-		9B92659426B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedAd.h; sourceTree = "<group>"; };
-		9B92659526B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_RewardCustomEventAdapter.h; sourceTree = "<group>"; };
-		9B92659626B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_NativeFeedCustomEventAdapter.h; sourceTree = "<group>"; };
-		9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_PangleTool.m; sourceTree = "<group>"; };
-		9B92659826B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_BannerCustomEventAdapter.h; sourceTree = "<group>"; };
-		9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FullScreenVideoCustomEventAdapter.m; sourceTree = "<group>"; };
-		9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_RewardCustomEventAdapter.m; sourceTree = "<group>"; };
-		9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedAd.m; sourceTree = "<group>"; };
-		9B92659C26B79C6F003C6ACD /* BUDAdmob_PangleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_PangleTool.h; sourceTree = "<group>"; };
-		9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_NativeFeedCustomEventAdapter.m; sourceTree = "<group>"; };
 		9B9265A026B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_RewardVideoCusEventVC.h; sourceTree = "<group>"; };
 		9B9265A126B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUDAdmob_BannerCusEventVC.h; sourceTree = "<group>"; };
 		9B9265A226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUDAdmob_FullScreenCusEventVC.m; sourceTree = "<group>"; };
@@ -91,6 +91,25 @@
 				878BE3452B9131F7F28284D8 /* Pods_AdmobAdapterDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0BCBD526D37D3C002F0298 /* AdmobAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BCBD626D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */,
+				9B0BCBD726D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.m */,
+				9B0BCBD826D37D3C002F0298 /* BUDAdmob_NativeFeedAd.h */,
+				9B0BCBD926D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.h */,
+				9B0BCBDA26D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.h */,
+				9B0BCBDB26D37D3C002F0298 /* BUDAdmob_PangleTool.m */,
+				9B0BCBDC26D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.h */,
+				9B0BCBDD26D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */,
+				9B0BCBDE26D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.m */,
+				9B0BCBDF26D37D3C002F0298 /* BUDAdmob_NativeFeedAd.m */,
+				9B0BCBE026D37D3C002F0298 /* BUDAdmob_PangleTool.h */,
+				9B0BCBE126D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.m */,
+			);
+			path = AdmobAdapter;
 			sourceTree = "<group>";
 		};
 		9B92656A26B79B80003C6ACD = {
@@ -137,29 +156,10 @@
 		9B92659026B79C6F003C6ACD /* CustomEventAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				9B92659126B79C6F003C6ACD /* Adapter */,
+				9B0BCBD526D37D3C002F0298 /* AdmobAdapter */,
 				9B92659E26B79C6F003C6ACD /* ExamplePage */,
 			);
 			path = CustomEventAdapter;
-			sourceTree = "<group>";
-		};
-		9B92659126B79C6F003C6ACD /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				9B92659826B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.h */,
-				9B92659326B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m */,
-				9B92659226B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.h */,
-				9B92659926B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m */,
-				9B92659426B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.h */,
-				9B92659B26B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m */,
-				9B92659626B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.h */,
-				9B92659D26B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m */,
-				9B92659C26B79C6F003C6ACD /* BUDAdmob_PangleTool.h */,
-				9B92659726B79C6F003C6ACD /* BUDAdmob_PangleTool.m */,
-				9B92659526B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.h */,
-				9B92659A26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m */,
-			);
-			path = Adapter;
 			sourceTree = "<group>";
 		};
 		9B92659E26B79C6F003C6ACD /* ExamplePage */ = {
@@ -330,17 +330,17 @@
 			files = (
 				9B9265B726B79C6F003C6ACD /* BUDAdmobCustomEventViewController.m in Sources */,
 				9B9265B426B79C6F003C6ACD /* BUDAdmob_RewardVideoCusEventVC.m in Sources */,
-				9B9265AD26B79C6F003C6ACD /* BUDAdmob_PangleTool.m in Sources */,
+				9B0BCBE326D37D3C002F0298 /* BUDAdmob_PangleTool.m in Sources */,
 				9B9265B326B79C6F003C6ACD /* BUDAdmob_FeedNativeCusEventVC.m in Sources */,
+				9B0BCBE526D37D3C002F0298 /* BUDAdmob_RewardCustomEventAdapter.m in Sources */,
 				9B9265B626B79C6F003C6ACD /* BUDAdmob_BannerCusEventVC.m in Sources */,
-				9B9265AE26B79C6F003C6ACD /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */,
 				9B92657826B79B80003C6ACD /* AppDelegate.m in Sources */,
+				9B0BCBE426D37D3C002F0298 /* BUDAdmob_FullScreenVideoCustomEventAdapter.m in Sources */,
 				9B92658926B79B81003C6ACD /* main.m in Sources */,
-				9B9265AC26B79C6F003C6ACD /* BUDAdmob_BannerCustomEventAdapter.m in Sources */,
-				9B9265AF26B79C6F003C6ACD /* BUDAdmob_RewardCustomEventAdapter.m in Sources */,
-				9B9265B126B79C6F003C6ACD /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */,
+				9B0BCBE726D37D3C002F0298 /* BUDAdmob_NativeFeedCustomEventAdapter.m in Sources */,
 				9B9265B226B79C6F003C6ACD /* BUDAdmob_FullScreenCusEventVC.m in Sources */,
-				9B9265B026B79C6F003C6ACD /* BUDAdmob_NativeFeedAd.m in Sources */,
+				9B0BCBE226D37D3C002F0298 /* BUDAdmob_BannerCustomEventAdapter.m in Sources */,
+				9B0BCBE626D37D3C002F0298 /* BUDAdmob_NativeFeedAd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
